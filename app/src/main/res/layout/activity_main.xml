@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical" tools:context=".GeoActivity">
+    <TextView android:id="@+id/txtQuestion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World!"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:orientation="horizontal">
+        <Button android:id="@+id/btnTrue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_true"/>
+        <Button android:id="@+id/btnFalse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_false"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:orientation="horizontal">
+        <Button android:id="@+id/btnPrev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="前一题"/>
+        <Button android:id="@+id/btnNext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="后一题"/>
+    </LinearLayout>
+</LinearLayout>
